@@ -8,3 +8,31 @@ Consider an 3 input images A, A', and B. We take each pixel of B and find the op
 
 ## Examples of Simple Analogy Transfer
 ![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/blurA1.jpg)
+![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/blurA2.jpg)
+![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/blurB1.jpg)
+![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/blurB2.jpg)
+![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/pastelA1.jpg)
+![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/pastelA2.jpg)
+![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/pastelB1.jpg)
+![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/pastelB2.jpg)
+
+## Part 2 - Age Regression
+Age Regression Required more localised feature mapping for each part of the face and then apply different operations for each feature. Some features chosen were: 
++ Forehead
++ Hair
++ Eyes
++ Undereyes
++ Upperlip
++ Cheeks
++ Lips
++ Chin
++ Underchin
++ Neck
+
+The features were defined in both image A and B using a helper image in which each face component was mapped to a different color which made it easier for classification. The gradient of the aged input image is taken and compared with its younger self. The differneces in the gradients are stored and and then a gradient is constructed for each feature part by considering only the region conrresponding to that part. Then the feature gradient of image A is morphed to fit the feature region of image B and the gradients are added to B'. The rest of B' is constructed by simple analogy transfer explained in part 1 in the localised feature regions. Special transformations are made for each part involving luminosity and color. Eg. The lips are made thinner, The chin and cheeks start to droop a bit, etc.
+
+## Example of Age Regression
+![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/youngA1.jpg)
+![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/oldA2.jpg)
+![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/youngB1.jpg)
+![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/oldB2.jpg)
