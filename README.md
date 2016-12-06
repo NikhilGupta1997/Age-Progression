@@ -10,7 +10,7 @@ Consider an 3 input images A, A', and B. We take each pixel of B and find the op
 ![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/blurA1.jpg)
 ![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/blurA2.jpg)
 ![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/blurB1.jpg)
-![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/blurB2.jpg)
+![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/blurB2.jpg)  
 ![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/pastelA1.jpg)
 ![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/pastelA2.jpg)
 ![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/pastelB1.jpg)
@@ -34,5 +34,18 @@ The features were defined in both image A and B using a helper image in which ea
 ## Example of Age Regression
 ![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/youngA1.jpg)
 ![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/oldA2.jpg)
+![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/coloredA.jpg)  
 ![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/youngB1.jpg)
 ![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/oldB2.jpg)
+![A](https://github.com/NikhilGupta1997/Age-Regression/tree/master/Images/coloredB.jpg)
+
+## Steps to Run
+*Compile* using `opencv.sh`  
+*Run* simple analogy transfer using `run.sh` 0 A A' B  
+*Run* age regression using `run.sh` 1 A A' A'' B B''  
+Here A'' and B'' are the colored feature images of A and B respectively
+
+## Authors
+* [Nikhil Gupta](https://github.com/NikhilGupta1997)
+
+Course Project under [**Prof. Prem Kalra**](http://www.cse.iitd.ernet.in/~pkalra/)
