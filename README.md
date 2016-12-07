@@ -45,7 +45,7 @@ The features were defined in both image A and B using a helper image in which ea
 *Run* age progression using `run.sh` 1 A A' A'' B B''  
 Here A'' and B'' are the colored feature images of A and B respectively
 
-## Authors
+## Author
 * [Nikhil Gupta](https://github.com/NikhilGupta1997)
 
 Course Project under [**Prof. Prem Kalra**](http://www.cse.iitd.ernet.in/~pkalra/)
