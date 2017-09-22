@@ -8,8 +8,11 @@ Consider an 3 input images A, A', and B. We take each pixel of B and find the op
 
 ## Examples of Simple Analogy Transfer
 <img src="Images/blurA1.jpg" alt="Drawing" width="200" height="200"/><img src="Images/blurA2.jpg" alt="Drawing" width="200" height="200"/>
+
 <img src="Images/blurB1.jpg" alt="Drawing" height="200"/><img src="Images/blurB2.jpg" alt="Drawing" height="200"/>
+
 <img src="Images/pastelA1.jpg" alt="Drawing" height="200"/><img src="Images/pastelA2.jpg" alt="Drawing" height="200"/>
+
 <img src="Images/pastelB1.jpg" alt="Drawing" height="200"/><img src="Images/pastelB2.jpg" alt="Drawing" height="200"/>
 
 ## Part 2 - Age Progression
@@ -29,6 +32,7 @@ The features were defined in both image A and B using a helper image in which ea
 
 ## Example of Age Progression
 <img src="Images/youngA1.jpg" alt="Drawing" height="200"/><img src="Images/oldA2.jpg" alt="Drawing" height="200"/><img src="Images/coloredA.jpg" alt="Drawing" height="200"/>
+
 <img src="Images/youngB1.jpg" alt="Drawing" height="200"/><img src="Images/oldB2.jpg" alt="Drawing" height="200"/><img src="Images/coloredB.jpg" alt="Drawing" height="200"/>
 
 ## Steps to Run
